@@ -27,7 +27,7 @@ input, textarea, button {
 }
 
 button {
-    background-color: #2ecc71;
+    background-color: #532ecc;
     border: none;
     text-transform: uppercase;
     color: #fff;
@@ -38,5 +38,30 @@ button {
 }
 
 button:hover {
-    background-color: #27ae60;
+    background-color:  #a18ee0;
+}
+
+
+.success{
+    border: 1px solid rgb(214,233,198);
+    background-color: rgb(223,240,216);
+    color: rgb(70,136,71);
+    padding: 8px;
+}
+
+.danger{
+    border: 1px solid rgb(238,211,215);
+    background-color: rgb(242,222,222);
+    color: rgb(185,74,72);
+    padding: 8px;
+}
+.none{
+    display:none;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    padding-left: 41%;
+    transform: translate(0%, -50%);
 }

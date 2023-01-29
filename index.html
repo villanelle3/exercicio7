@@ -9,15 +9,13 @@
 </head>
 <body>
     <div class="container">
-        <h1>EBAC Banking</h1>
-        <h2>Depósitos</h2>
-        <form>
-            <input type="text" required placeholder="Nome completo do beneficiário" />
-            <input type="number" required placeholder="Número da conta" />
-            <input type="number" required placeholder="Valor" />
-            <textarea placeholder="Descrição (opcional)"></textarea>
-            <button type="submit">Depositar</button>
+        <h1>Dois Números</h1>
+        <form id="form1">
+            <input id="numberA" type="number" required placeholder="Número A" />
+            <input id="numberB" type="number" required placeholder="Número B" /> <!-- Núemro B > Número A-->
+            <button type="submit">Verificar</button>
         </form>
+        <p id="message" class=""></p>
     </div>
     <script src="./main.js"></script>
 </body>
